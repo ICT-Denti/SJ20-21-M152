@@ -7,66 +7,35 @@
     <title>Uebung_2-1</title>
 </head>
 <body>
-
-    <h1>Dieses Tag ist ein: h1</h1>
-
-    <p class="lead">p-Tag mit Klasse 'lead'</p>
-
-    <p class="text">p-Tag mit Klasse 'text'</p>
-
-    <div>
-        List innerhalb eines div Tags
-        <ul>
-            <li>Listeneintrag 1</li>
-            <li>Listeneintrag 2</li>
-            <li>Listeneintrag 3</li>
-        </ul>
-    </div>
-
-    <ul>
-        <li>Liste</li>
-        <li>ausserhalb</li>
-        <li>eines div-Tags</li>
-    </ul>
-
-    <ul class="long">
-        <li>Eine</li>
-        <li>lange</li>
-        <li>Liste</li>
-        <li>mit</li>
-        <li>vielen</li>
-        <li>Punkten</li>
-    </ul>
-
-    <form>
-        <input type="text" id="name" value="Input mit id 'name'" />
-        <input type="text" value="Normales Textfeld" />
-        <input type="number" value="1234" />
-    </form>
-
+    <button id="continue">Fortfahren</button>
+    <button id="back">Zurück</button>
+    <button id="abort">Abbrechen</button>
+    <button id="restart">Neu Starten</button>
 </body>
-
 <style type="text/css">
-   h1{
-       color: red;
-   }
-   .lead {
-       color: blue;
-   }
-   .text {
-       border: 1px solid yellow;
-   }
-   body > ul li {
-       color: green;
-   }
-   div > ul{
-       text-decoration: underline;
-   }
-   div > ul > li:last-child{
-       font-weight: bold;
-   }
-   .long {
-       color: blue red;
-   }
+
+#continue {
+    background-color: green;
+}
+#back {
+    background-color: orange;
+}
+#abort {
+    background-color: red;
+}
+#restart {
+    background-color: blue;
+}
+button {
+display: block;
+visibility: hidden;
+visibility: visible;
+border-radius: 4px;
+margin-bottom: 10px;
+padding: 2px 10px;
+}
+button:hover {
+    border: solid 1px red;
+}
 </style>
 </html>
