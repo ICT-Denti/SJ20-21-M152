@@ -9,13 +9,13 @@
 }
 
 .person .title {
-  padding-top: 15px;
-  padding: 5px;
+  padding-top: 20px;
+  padding-bottom: 5px;
   font-weight: bold;
 }
 
 .person .text {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .person img {
