@@ -1,0 +1,74 @@
+/* Zur veranschaulichung wie die Spalten und Zeilen aufgestellt sind. */
+.container { 
+    height:100vh; 
+    display: grid; 
+    grid-template-columns:          100px 100px 100px 100px 100px 100px 100px 100px; 
+    grid-template-rows:     100px 
+                            100px 
+                            100px
+                            100px
+                            100px
+;} 
+  #box1 { 
+    background:magenta; 
+    grid-column-start:1; 
+    grid-column-end:3; 
+    grid-row-start:1; 
+    grid-row-end:5; 
+  } 
+  #box2 { 
+    background:salmon; 
+    grid-column-start:3; 
+    grid-column-end:8; 
+    grid-row-start:1; 
+    grid-row-end:1; 
+  } 
+  #box3 { 
+    background:darkviolet; 
+    grid-column-start:8; 
+    grid-column-end:9; 
+    grid-row-start:1; 
+    grid-row-end:1; 
+  } 
+  #box4 { 
+    background:darkgreen; 
+    grid-column-start:3; 
+    grid-column-end:5; 
+    grid-row-start:2; 
+    grid-row-end:4; 
+  }
+  #box5 { 
+    background:tan; 
+    grid-column-start:5; 
+    grid-column-end:7; 
+    grid-row-start:2; 
+    grid-row-end:4; 
+  }
+  #box6 { 
+    background:slateblue; 
+    grid-column-start:7; 
+    grid-column-end:9; 
+    grid-row-start:2; 
+    grid-row-end:5; 
+  }
+  #box7 { 
+    background:greenyellow; 
+    grid-column-start:3; 
+    grid-column-end:7; 
+    grid-row-start:4; 
+    grid-row-end:5; 
+  }
+  #box8 { 
+    background: rgb(175, 115, 71); 
+    grid-column-start:1; 
+    grid-column-end:5; 
+    grid-row-start:5; 
+    grid-row-end:6; 
+  }
+  #box9 { 
+    background:wheat; 
+    grid-column-start:5; 
+    grid-column-end:9; 
+    grid-row-start:5; 
+    grid-row-end:6; 
+  }
