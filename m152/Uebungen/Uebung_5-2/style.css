@@ -149,9 +149,47 @@ nav ul li a:hover, nav ul li a.active {
   background-color: gold;
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: orange;
+@media screen and (max-width: 770px) {
+  .wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .person {
+    width: 33%;
+  }
+}
+@media screen and (max-width: 430px) {
+  .wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  nav ul li a {
+    font-size: small;
+  }
+  .personlist {
+    justify-content: center;
+    padding-top: 10px;
+  }
+  .person {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 350px) {
+  header div {
+    font-size: 3rem;
+  }
+  main {
+   text-align: center;
+  }
+  nav ul li a {
+    font-size: 12px;
+  }
+  .personlist {
+    justify-content: center;
+    padding-top: 10px;
+  }
+  .person {
+    width: 90%;
   }
 }
 /* # sourceMappingURL=style.css.map */
