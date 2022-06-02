@@ -1,0 +1,59 @@
+Projekt VueJS 
+
+
+ 
+
+Zeitplan 
+
+DATUM       THEMA 
+
+02. JUNI    Bekanntgebung Auftrag 
+
+09. JUNI    Selbstständiges Arbeiten, begleitet von Herrn Suter 
+
+16. JUNI    Feiertag 
+
+23. JUNI    Selbstständiges Arbeiten, Abgabe der Projektarbeit 
+
+
+
+Abgabe 
+
+Via GIT oder .zip File an Andi Moser (per Teams Nachricht) 
+
+Achtung: Wenn Sie die Arbeit als .zip File abgeben, fügen Sie den node_modules Ordner nicht ins 
+Archiv! 
+
+ 
+
+Ziel: Notenverwaltungstool 
+
+Benutzer können pro Fach mehrere Noten erfassen. Das Tool zeigt pro Fach den Notenschnitt sowie 
+den gesamten Schnitt an. 
+
+Die Fächer sind vordefiniert, verwenden Sie dafür die Fächer Ihres aktuellen Stundenplanes. Es soll 
+jedoch einfach möglich sein ein neues Fach hinzuzufügen. 
+
+Die Noten pro Fach werden auf 2 Nachkommastellen gerundet, die Gesamtnote auf 0.5 
+(mathematisch). 
+
+Jede Note kann wieder aus der Liste gelöscht werden. Editieren ist nicht möglich, die Note muss 
+dabei neu erstellt werden. 
+
+Die App soll nach den Kriterien der Gestaltung «schön» aussehen und sowohl auf Desktop wie auf 
+Mobilgeräten verwendbar sein. 
+
+(Optional) Die Noten sollen im localStorage des Browsers gespeichert werden sodass nach einem 
+Refresh die Daten noch vorhanden sind. 
+
+Frameworks: VueJS Pflicht, CSS Framework nach Wahl. 
+
+ 
+
+Bewertungskriterien 
+
+- Vollständige und korrekte Funktionalität: 35% 
+- Darstellung auf Desktop: 25% 
+- Darstellung auf Mobile: 25% 
+- Korrekter Code: 10% (korrektes HTML, JS und CSS) 
+- Formatierung des Codes: 5% (korrektes einrücken) 
