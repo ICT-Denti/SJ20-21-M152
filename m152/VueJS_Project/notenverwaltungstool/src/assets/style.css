@@ -1,3 +1,35 @@
-
-
-/* # sourceMappingURL=style.css.map */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+h3 {
+    margin: 40px 0 0;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  a {
+    color: #42b983;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns:      auto auto auto auto auto auto auto auto;
+    grid-template-rows:     auto 
+                            auto
+                            ;
+    grid-gap: 10px;
+  }
+  .grid-container > div {
+    margin: 1px;
+    font-size: 20px;
+  }
+  .person {
+    width: 190px;
+    height: 350px;
+}
