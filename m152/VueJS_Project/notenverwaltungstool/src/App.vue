@@ -1,8 +1,9 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> 
-    <router-link to="/about">About</router-link>
-  </nav>
+<header>
+  <h1>
+    Notenverwaltungstool
+  </h1>
+</header>
   <router-view>
 
   </router-view>
@@ -17,17 +18,13 @@
   color: #2c3e50;
 }
 
-nav {
+header {
   padding: 30px;
 
-  a {
+  h1 {
     font-weight: bold;
-    color: #2c3e50;
-    text-align: center;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+    color: indigo;
+    text-align: left;
   }
 }
 </style>

@@ -2,7 +2,7 @@
 <main class="grid-container">
   <div class="fach">
     <h2>ABU</h2>
-      <form @submit.prevent="addNote">
+  <form @submit.prevent="addNote">
     <input v-model="newNote">
     <button>Add Note</button>    
   </form>
@@ -15,7 +15,7 @@
   </div>
   <div class="fach">
     <h2>M306</h2>
-      <form @submit.prevent="addNote">
+  <form @submit.prevent="addNote">
     <input v-model="newNote">
     <button>Add Note</button>    
   </form>
@@ -28,7 +28,7 @@
   </div>
   <div class="fach">
     <h2>NW</h2>
-      <form @submit.prevent="addNote">
+  <form @submit.prevent="addNote">
     <input v-model="newNote">
     <button>Add Note</button>    
   </form>
@@ -41,7 +41,7 @@
   </div>
   <div class="fach">
     <h2>M151</h2>
-      <form @submit.prevent="addNote">
+  <form @submit.prevent="addNote">
     <input v-model="newNote">
     <button>Add Note</button>    
   </form>
@@ -54,7 +54,7 @@
   </div>
   <div class="fach">
     <h2>M152</h2>
-      <form @submit.prevent="addNote">
+  <form @submit.prevent="addNote">
     <input v-model="newNote">
     <button>Add Note</button>    
   </form>
@@ -67,7 +67,7 @@
   </div>
   <div class="fach">
     <h2>M153</h2>
-      <form @submit.prevent="addNote">
+  <form @submit.prevent="addNote">
     <input v-model="newNote">
     <button>Add Note</button>    
   </form>
@@ -80,7 +80,7 @@
   </div>
   <div class="fach">
     <h2>Sport</h2>
-      <form @submit.prevent="addNote">
+  <form @submit.prevent="addNote">
     <input v-model="newNote">
     <button>Add Note</button>    
   </form>
@@ -93,8 +93,9 @@
   </div>
   <div class="fach">
     <h2>W&R</h2>
-      <form @submit.prevent="addNote">
-    <input v-model="newNote">    <button>Add Note</button> 
+  <form @submit.prevent="addNote">
+    <input v-model="newNote">    
+    <button>Add Note</button> 
   </form>
   <ul>
     <li v-for="note in notes" :key="note.id">
