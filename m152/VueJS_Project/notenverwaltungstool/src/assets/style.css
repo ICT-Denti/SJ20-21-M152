@@ -5,24 +5,44 @@
 }
 h3 {
     margin: 40px 0 0;
+    text-align: center;
   }
   ul {
-    list-style-type: none;
+    list-style-type: decimal;
     padding: 0;
   }
   li {
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 5px;
   }
   a {
     color: #42b983;
   }
   .grid-container {
     display: grid;
-    grid-template-columns:      auto auto auto auto auto auto auto auto;
+    grid-template-columns:      auto auto auto auto;
     grid-template-rows:     auto 
                             auto
                             ;
     grid-gap: 10px;
-    border-style: solid ;
+    border: 2px solid darkgreen;
   }
+  .fach{
+    margin: auto;
+    background-color: aquamarine;
+  }
+  input {
+    margin: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+  @media screen and (max-width: 420px){
+    h1, .grid-container {
+        grid-template-columns:      auto auto;
+        grid-template-rows:     auto 
+                                auto 
+                                ;
+        flex-direction: column;
+    }
+    
+}

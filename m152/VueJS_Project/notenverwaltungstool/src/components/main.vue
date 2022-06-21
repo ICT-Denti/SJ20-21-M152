@@ -1,6 +1,6 @@
 <template>
 <main class="grid-container">
-  <div class="fach1">
+  <div class="fach">
     <h2>ABU</h2>
       <form @submit.prevent="addNote">
     <input v-model="newNote">
@@ -13,7 +13,7 @@
     </li>
   </ul>
   </div>
-  <div class="fach2">
+  <div class="fach">
     <h2>M306</h2>
       <form @submit.prevent="addNote">
     <input v-model="newNote">
@@ -26,7 +26,7 @@
     </li>
   </ul>
   </div>
-  <div class="fach3">
+  <div class="fach">
     <h2>NW</h2>
       <form @submit.prevent="addNote">
     <input v-model="newNote">
@@ -39,7 +39,7 @@
     </li>
   </ul>
   </div>
-  <div class="fach4">
+  <div class="fach">
     <h2>M151</h2>
       <form @submit.prevent="addNote">
     <input v-model="newNote">
@@ -52,7 +52,7 @@
     </li>
   </ul>
   </div>
-  <div class="fach5">
+  <div class="fach">
     <h2>M152</h2>
       <form @submit.prevent="addNote">
     <input v-model="newNote">
@@ -65,7 +65,7 @@
     </li>
   </ul>
   </div>
-  <div class="fach6">
+  <div class="fach">
     <h2>M153</h2>
       <form @submit.prevent="addNote">
     <input v-model="newNote">
@@ -78,7 +78,7 @@
     </li>
   </ul>
   </div>
-  <div class="fach7">
+  <div class="fach">
     <h2>Sport</h2>
       <form @submit.prevent="addNote">
     <input v-model="newNote">
@@ -91,11 +91,10 @@
     </li>
   </ul>
   </div>
-  <div class="fach8">
+  <div class="fach">
     <h2>W&R</h2>
       <form @submit.prevent="addNote">
-    <input v-model="newNote">
-    <button>Add Note</button>    
+    <input v-model="newNote">    <button>Add Note</button> 
   </form>
   <ul>
     <li v-for="note in notes" :key="note.id">
@@ -117,7 +116,7 @@ let id = 0
 
 const newNote = ref('')
 const notes = ref([
-  { id: id++, text: '4.0' },
+  { id: id++, text: '3.0' },
   { id: id++, text: '6.0' },
   { id: id++, text: '5.5' }
 ])
