@@ -45,13 +45,13 @@ const Faecher = ref({
   M306: { noten: [6, 5.9] },
 });
 
-function removeNote(fach, note) {
-  Faecher.value[fach].noten.splice(note, 1);
+function addNote(x, fach) {
+  let newNote = Math.min(6, Math.max(1, parseFloat(x.target.value)));
+  Faecher.value[fach].noten.push(newNote);
 }
 
-function addNote(x, fach) {
-  let newNote = Math.min(6, Math.max(1, parseInt(x.target.value)));
-  Faecher.value[fach].noten.push(newNote);
+function removeNote(fach, note) {
+  Faecher.value[fach].noten.splice(note, 1);
 }
 
 function calculateAverageGrade(fach) {
