@@ -4,10 +4,10 @@
       <h2>
         {{ fach }}
       </h2>
-      <form @keyup.enter="addNote($event, fach)">
+      <div @keyup.enter="addNote($event, fach)">
+        <label type="text">Neue Note:</label>
         <input type="number" min="0" max="6"/>
-         <button>Note hinzufügen</button> 
-      </form>
+      </div>
       <ul>
         <li v-for="(note, index) in noten.noten" :key="index">
           {{ parseFloat(note).toFixed(2) }}
@@ -18,11 +18,10 @@
         </li>
       </ul>
     </div>
-      <form @keyup.enter="addSubject($event)">
-        <label type="text">Name für Neues Fach: </label>
+      <div @keyup.enter="addSubject($event)">
+        <label type="text">Neues Fach:</label>
         <input type="text"/>
-        <button>hinzufügen</button> 
-      </form>
+      </div>
     <div>
       <p>Gesamter Notendurchschnitt:</p>
       <p class="schnitt">{{ parseFloat(roundHalf(calculateAverageGradeFromAllSubjects())).toFixed(2) }}</p>
